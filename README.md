@@ -30,22 +30,16 @@ buy-and-hold on average.
 Exception: in the most recent fold, both strategies beat buy-and-hold on TCS, HDFC Bank, and
 Infosys during the Jan–Mar 2026 drawdown, by staying in cash instead of holding through the drop.
 
-## Files
-
-- `ma_crossover_backtest.ipynb` — main notebook, run top to bottom
-- `requirements.txt` — dependencies
-- `walkforward_results.csv`, `strategy_comparison_summary.csv` — generated on run
-
 ## Run it
 
 **Locally**
 ```bash
 pip install -r requirements.txt
-jupyter notebook ma_crossover_backtest.ipynb
+jupyter notebook ma_crossover_backtest_file.ipynb
 ```
 
 **Kaggle**
-1. Upload `ma_crossover_backtest.ipynb`
+1. Upload `ma_crossover_backtest_file.ipynb`
 2. Settings → Internet → On
 3. Run all
 
